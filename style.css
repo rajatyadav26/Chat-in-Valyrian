@@ -1,4 +1,82 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #F87171;
+    --black: #333333;
+    --width-break: 600px
+}
+
+body {
+    margin: 0;
+    font-family: 'Kalam', cursive;
+    color: #333333;
+}
+
+header {
+    background-color: var(--primary);
+    text-align: center;
+    padding: 0.5rem;
+}
+
+section {
+    margin: auto;
+    padding: 1rem;
+    max-width: var(--width-break);
+}
+
+#text-input {
+    box-sizing: border-box;
+    display: block;
+    font-size: x-large;
+    font-weight: bold;
+    min-height: 10vh;
+    margin: 1rem 0rem;
+    width: 100%;
+}
+
+button {
+    background-color: var(--primary);
+    border: none;
+    margin: 1rem 0rem;
+    padding: 1rem 2rem;
+    font-family: 'Kalam', cursive;
+    font-size: large;
+    display: block;
+}
+
+#output {
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 10vh;
+    max-height: 20vh;
+    overflow: scroll;
+    border: 1px solid var(--black);
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 0.5rem;
+    background-color: var(--primary);
+    text-align: center;
+}
+
+footer p {
+    max-width: var(--width-break);
+    margin: auto;
+    width: 100%auto;
+}
+
+.footer-heading {
+    font-size: x-large;
+}
+
+
+/** @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
 :root {
     --primary-color: #F87171;
     --width-break: 600px
@@ -77,3 +155,5 @@ textarea {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
 }
+
+**/
